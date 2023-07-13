@@ -1,5 +1,5 @@
 .navbar-lewagon {
-  justify-content: center;
+  justify-content: space-between;
   background: white;
 }
 
@@ -7,8 +7,8 @@
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-lewagon .logo img {
+  width: 180px;
 }
 
 .nav-link {
@@ -18,4 +18,20 @@
 .navbar {
   justify-content: center;
   height: 50px;
+}
+
+.navbar {
+  justify-content: center;
+}
+
+.container-fluid {
+}
+
+.navbar-brand {
+  text-shadow: 1px 1px 1px #8d8d8d;
+  justify-content: center;
+}
+
+.container h1 {
+  text-shadow: 1px 1px 1px #8d8d8d;
 }
